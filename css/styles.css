@@ -1,0 +1,16 @@
+#main-menu h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:aqua
+}
+
+.menu{
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+#main-menu p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
