@@ -1,16 +1,45 @@
-#main-menu h2{
-    font-size: 24px;
-    margin-bottom: 10px;
-    color:aqua
+
+.roboto-condensed{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
-.menu{
-    color: #333;
-    font-family: Arial, sans-serif;
+body{
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
-#main-menu p{
-    font-size: 16px;
-    line-height: 1.5;
+header{
+    width: 100%;
+    background-color: #5a3434;
+    padding: 10px;
+    
 }
 
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    
+}
+nav a:visited{
+    color: #fff;
+}
+nav a:hover{
+    transition: color 0.2s ease;
+    color: #c7087e;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #c7087e;
+    text-decoration-style: solid;
+}
