@@ -8,6 +8,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Restaurant</title>
+        <link rel="icon" type="image/webp" href="./media/img/favicon.webp">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,12 +16,16 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body>
+    <body class="roboto-condensed">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <header>
-            <h1 style="text-align: center;">My Restaurant</h1>
+            <div id="brand">
+                <img  id="logo" src="./media/img/favicon.webp" alt="Restaurant Logo" width="100px" height="100px">
+                <h1 style="text-align: center;">My Restaurant</h1>
+            </div>
+            
             <nav style="text-align: center;">
                 <a href="index.html">Home</a>
                 <a href="menu.html">Menu</a>
@@ -30,12 +35,40 @@
             </nav>
         </header>
         <main>
-            
             <section>
-                <article class="menu" id="main-menu">
+                <article>
                     <h2>Welcome and Bon Appétit!</h2>
                     <p>Welcome to our restaurant! We offer a variety of delicious dishes made with the freshest ingredients.</p>
                     <p>Check out our menu to see what we have to offer! With our meals varying from traditional favorites to innovative creations, there's something for everyone.  </p>
+                </article>
+            </section>
+            <section>
+                <article >
+                    <h2>Our Specialties</h2>
+                    <p>We take pride in our specialties, which include:</p>
+                    <ul>
+                        <li>Grilled Salmon with Lemon Butter Sauce</li>
+                        <li>Classic Margherita Pizza</li>
+                        <li>Homemade Pasta with Fresh Herbs</li>
+                        <li>Decadent Chocolate Lava Cake</li>
+                    </ul>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <h2>Visit Us</h2>
+                    <p>We are located at 123 Main Street, Anytown, USA. Our restaurant is open from 11:00 AM to 10:00 PM every day.</p>
+                    <p>Make a reservation today and enjoy a memorable dining experience!</p>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions or would like to make a reservation, please contact us at:</p>
+                    <ul>
+                        <li>Phone: (123) 456-7890</li>
+                        <li>Email: <a href="mailto:info@myrestaurant.com">info@myrestaurant.com</a></li>
+                    </ul>
                 </article>
             </section>
         </main>
